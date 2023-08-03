@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Patient Registration Form</title>
+    <meta charset="UTF-8">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main>
+      <form method="post" action='https://register-patient.patientregistration.org'>
+      <fieldset>
+    <h1>Patient Registration Form</h1>
+    
+    <label for="patient-telephone">Telephone: <input id="patient-telephone" name="telephone" type="number" required /></label>
+    <div>
+    <label for="patient-name">Name: <input id="patient-name" name="patient-name" type="text" required /></label>
+    </div>
+    <div>
+    <label for="birth-date">Date of Birth:</label>
+            <input type="date" name="birth-date" id="birth-date" />
+<label for="patient-id">ID Number:</label>
+            <input type="number" name="patient-id" id="patient-id" />
+   
+    </div>
+    <div>
+    <label for="adress">Address: <input id="adress" name="adress" type="text" required /></label>
+    </div>
+    </div>
+    <label for="patient-county">County: <input id="patient-county" name="patient-county" type="text" required /></label>
+    </div>
+    <label for="patient-scounty">Sub County: <input id="patient-scounty" name="patient-scounty" type="text" required /></label>
+    </div>
+    <div>
+      <label for="patient-telephone">Telephone: <input id="patient-telephone" name="telephone" type="number" required /></label>
+      <label for="patient-email">Email:
+            <input type="email" name="patient-email" id="patient-email" />
+                </label>
+    </div>
+    <div>
+      <label for="patient-gender">Gender: <input id="patient-gender" name="patient-gender" type="text" required /></label>
+        <label for="status">Marital Status: <input id="status" name="status" type="text" required /></label>
+    </div>
+    <div>
+      </ul>
+      </fieldset>
+      <fieldset>
+    <h2>Next of Kin</h2>
+
+      <label for="kin-name">Name: <input id="kin-name" name="kin-name" type="text" required /></label>
+        <div>
+          <label for="kin-birth-date">Date of Birth:
+            <input type="date" name="kin-birth-date" id="kin-birth-date" required/>
+            </label>
+          <label for="kin-id">ID Number:
+            <input type="number" name="kin-id" id="kin-id" required />
+              </label>
+        </div>
+        <div>
+          <label for="kin-gender">Gender: <input id="kin-gender" name="kin-gender" type="text" required /></label>
+          <label for="relationship">Relationship: <input id="relationship" name="relationship" type="text" required /></label>
+        </div>
+        <label for="kin-telephone">Telephone: <input id="kin-telephone" name="kin-telephone" type="number" required /></label>
+  
+    </fieldset>
+    </form>
+    </main>
+    </body>
+    </html>
